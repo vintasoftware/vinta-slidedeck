@@ -14,10 +14,10 @@ patterns in the Vinta site look. **Read `src/components/CATALOG.md` before start
 change, the pattern catalog with props and limits, the elements, and the content/asset limits. Do not invent color,
 font, size or icon; if no pattern fits, say so instead of creating a style. Write code and docs in English; slide copy
 in whatever language the user asks for (ask if the brief doesn't say — Portuguese runs longer, so recheck limits).
-(Workflow ported from vinta-slidedeck's new-deck skill.)
+(Workflow ported from vinta-slidedeck-deprecated's new-deck skill.)
 
 **One repository per deck.** Each deck is its own copy of the template repository
-`vintasoftware/vinta-react-deck-template` (GitHub's "Use this template"; a workflow renames the copy on its first
+`vintasoftware/vinta-slidedeck` (GitHub's "Use this template"; a workflow renames the copy on its first
 push). The deck's slides are files in `src/slides/` — markdown (`.md`) by default, `.tsx` only when markdown can't
 express a slide — never Storybook stories. Storybook, the
 template gallery, `/patterns` and `/samples` are references to pick patterns from. If the git remote is the template
@@ -141,7 +141,7 @@ Pause on the 42%.
 
 When the user is done (deck published, or they say it's finished), ask once whether they'd like to contribute an
 anonymized version to the sample presentations. No → stop. Yes (this is the explicit request git needs) →
-the sample goes to the **template repository** (`vintasoftware/vinta-react-deck-template`), not this deck's
+the sample goes to the **template repository** (`vintasoftware/vinta-slidedeck`), not this deck's
 repository: work in a checkout of the template (clone it next to this one if there isn't one).
 1. Copy the deck to the template's `src/samples/<Name>.stories.tsx` as stories, one per slide in order (`title:
    'Samples/<Name>'`, `name: '01 Cover'`…, each `render: () => <Pattern … />`; see the existing samples), with a
@@ -153,7 +153,7 @@ repository: work in a checkout of the template (clone it next to this one if the
    check the new slides at `/samples` in the template.
 4. Show the user a short list of what was replaced and get an OK.
 5. In the template checkout: new branch off `main`, commit only the sample (and its images), push and open a PR
-   against `vintasoftware/vinta-react-deck-template`. Hand over the PR link.
+   against `vintasoftware/vinta-slidedeck`. Hand over the PR link.
 
 ## Deck-level tasks
 

@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   rename:
-    if: github.repository != 'vintasoftware/vinta-react-deck-template'
+    if: github.repository != 'vintasoftware/vinta-slidedeck' && github.repository != 'vintasoftware/vinta-react-deck-template'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

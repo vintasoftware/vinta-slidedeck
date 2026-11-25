@@ -1,6 +1,9 @@
-# Vinta Slides
+![Vinta Slidedeck: every Vinta presentation, built from one system and delivered as a Claude artifact](docs/assets/readme-banner.webp)
 
-Vinta's presentation design system (the vintasoftware.com site look, from vinta-slidedeck) as a
+# Vinta Slidedeck
+
+Vinta's presentation design system (the vintasoftware.com site look, from the original vinta-slidedeck, now
+vinta-slidedeck-deprecated) as a
 **React slide deck**: ~70 ready slide patterns, slides written as `.tsx` or plain **markdown**, a
 **presenter window** with speaker notes, **PDF/PPTX export**, and one-command **Claude artifacts** to share a
 deck as a link. Building a deck is picking patterns and passing your content — easy to do with an AI agent.
@@ -12,7 +15,7 @@ npm run dev      # http://localhost:5173  → your deck
 
 ## Start a new deck
 
-**One repository per deck.** On GitHub, use **"Use this template"** on `vintasoftware/vinta-react-deck-template` to
+**One repository per deck.** On GitHub, use **"Use this template"** on `vintasoftware/vinta-slidedeck` to
 create the deck's repository (a workflow renames the copy on its first push), clone it, `npm install`, then open
 Claude Code in it and ask for the deck (`/create-deck`): it asks what's missing, proposes an outline, builds the
 slides, checks them and publishes the deck as a private link when you approve. Ready-made prompts and rules:

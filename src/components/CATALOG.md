@@ -1,6 +1,6 @@
 # Pattern catalog — the Vinta design system (site look)
 
-`src/components/` is the Vinta presentation design system, ported from **vinta-slidedeck**: **patterns**
+`src/components/` is the Vinta presentation design system, ported from **vinta-slidedeck-deprecated**: **patterns**
 (full 1920×1080 slides) built from **elements** (atomic pieces), styled with CSS Modules and the tokens in
 `src/components/tokens.css`. It is the Vinta presentation look (vintasoftware.com) and the only slide system in
 this repo: every slide in a deck is one of these patterns.
@@ -36,10 +36,10 @@ this repo: every slide in a deck is one of these patterns.
   `src/index.css`) and `data-slide` (the slide root the exporters capture). A bespoke slide composed from elements
   must sit inside a `SlideShell` too. Animated product mocks (`BlockPreviews`) honour `prefers-reduced-motion`,
   which the PDF/PPTX exporter sets; in the artifact they run live.
-- **Added here (not in vinta-slidedeck):** `SlideCode` + the `CodeWindow` element, for code snippets. Built only
+- **Added here (not in vinta-slidedeck-deprecated):** `SlideCode` + the `CodeWindow` element, for code snippets. Built only
   from existing tokens; its syntax colors are pending design review.
 - **Reference docs:** `docs/foundations.md` (tokens and the 3-tier palette) and `docs/layout.md` (slide anatomy),
-  both carried over from vinta-slidedeck.
+  both carried over from vinta-slidedeck-deprecated.
 
 **Composing a slide without a pattern:** use `<SlideShell mode safeArea background={<VividBackground …/>}>` with
 `SlideHeader` for the header (padding `112px 144px 120px`) and only elements inside. Margins: `safeArea={144}`

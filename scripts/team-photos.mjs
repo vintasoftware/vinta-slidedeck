@@ -1,4 +1,4 @@
-// Team photos: an optimized library in the repo and the crops the slides use. Ported from vinta-slidedeck.
+// Team photos: an optimized library in the repo and the crops the slides use. Ported from vinta-slidedeck-deprecated.
 // The full-size originals (15–20 MB each) stay in the Drive folder "team-photos-originals".
 //
 //   npm run team-photos -- library <originals-dir>   originals (JPG) → assets/team-photos/<name>.webp (long side 2400, q82), duplicates skipped
