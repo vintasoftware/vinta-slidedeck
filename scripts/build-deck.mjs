@@ -1,6 +1,6 @@
 // Builds a deck as a single self-contained HTML (the normal deck runtime: arrows/click/swipe navigation,
 // overview, fullscreen; fonts and images embedded), ready to publish as a Claude artifact.
-// Ported from vinta-slidedeck's build-deck; the publish-deck skill is the guide.
+// Ported from vinta-slidedeck-deprecated's build-deck; the publish-deck skill is the guide.
 //
 // Usage:
 //   npm run build-deck                       your deck (src/slides/, served at /)

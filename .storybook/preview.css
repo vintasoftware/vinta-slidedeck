@@ -1,4 +1,4 @@
-/* Storybook's page styles: vinta-slidedeck's src/styles/global.css (minus the Google Fonts import — the fonts are
+/* Storybook's page styles: vinta-slidedeck-deprecated's src/styles/global.css (minus the Google Fonts import — the fonts are
    bundled, see preview.tsx). The tokens apply because preview.tsx puts the `.vds` scope on <html>. */
 @import '../src/components/tokens.css';
 
@@ -19,7 +19,7 @@ body {
   font-size: var(--font-size-body);
   font-weight: var(--font-weight-body);
   /* Same text rendering as the deck, its artifact and exports (src/index.css), so Storybook and the gallery
-     screenshots show slides as the audience sees them. (vinta-slidedeck's Storybook left the browser default.) */
+     screenshots show slides as the audience sees them. (vinta-slidedeck-deprecated's Storybook left the browser default.) */
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }

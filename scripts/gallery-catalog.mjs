@@ -1,4 +1,4 @@
-// Curated catalog of the template gallery (scripts/gallery.mjs), ported from vinta-slidedeck: categories by use, in
+// Curated catalog of the template gallery (scripts/gallery.mjs), ported from vinta-slidedeck-deprecated: categories by use, in
 // the order of a sales deck, with a plain-language label and hint per template. Maintained by hand: every pattern in
 // Storybook must be here (the gallery lists the missing ones under "Uncategorized"). `pattern` = folder name in src/components/patterns
 // (or an element with a full-screen story, e.g. Divider). `groups` splits a template's variants into labelled lists.

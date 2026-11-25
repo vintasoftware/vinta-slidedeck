@@ -5,7 +5,7 @@
 //   - index.html    <title>       -> display title   (e.g. "Q3 Review")
 //   - README.md     first heading -> display title
 //
-// Re-runnable: it matches on structure, not on the old "vinta-slides" text,
+// Re-runnable: it matches on structure, not on the old "vinta-slidedeck" text,
 // so you can run it again to rename to something else.
 //
 // Usage:
@@ -81,7 +81,7 @@ const slug = toSlug(rawName);
 const title = toTitle(rawName);
 
 // Don't rename the template back onto itself.
-if (slug === 'vinta-react-deck-template' || slug === 'vinta-slides') {
+if (['vinta-slidedeck', 'vinta-react-deck-template', 'vinta-slides'].includes(slug)) {
   console.log(`Skipping rename: "${slug}" is the template itself.`);
   process.exit(0);
 }

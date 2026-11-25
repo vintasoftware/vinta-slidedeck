@@ -12,7 +12,7 @@ description: >-
 The artifact is the deck `npm run build-deck` draws: one self-contained HTML with the normal deck runtime (arrows,
 click and swipe navigation, `o` overview, `f` fullscreen), fonts and images embedded, animations running. The
 Artifact tool publishes it; only Claude Code has that tool. Another agent builds and scans, then says publishing
-needs Claude Code. (Ported from vinta-slidedeck's publish-deck.)
+needs Claude Code. (Ported from vinta-slidedeck-deprecated's publish-deck.)
 
 ## Edits go wherever the user wants
 

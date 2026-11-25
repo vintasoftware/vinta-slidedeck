@@ -1,9 +1,9 @@
 # Vinta Slidedeck — Harness v4
 
-> **Ported from vinta-slidedeck** as reference for the `@/components` patterns. In this repo the tokens live in
+> **Ported from vinta-slidedeck-deprecated** as reference for the `@/components` patterns. In this repo the tokens live in
 > `src/components/tokens.css`, the catalog and rules in `src/components/CATALOG.md`, and every pattern renders at
 > `/patterns`. Mentions of Storybook, `CLAUDE.md` and `npm run` scripts (other than `build-deck`) refer to
-> vinta-slidedeck; this repo's team guide is `team-guide.md`, next to this file.
+> vinta-slidedeck-deprecated; this repo's team guide is `team-guide.md`, next to this file.
 
 **What it is:** the foundation (rules + tokens) of the sales-deck design system.
 Source of truth — Claude follows this; Figma reflects this.

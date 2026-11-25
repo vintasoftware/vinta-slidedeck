@@ -1,6 +1,6 @@
 # Known issues
 
-Carried over from vinta-slidedeck where they still apply, plus what is specific to this repo.
+Carried over from vinta-slidedeck-deprecated where they still apply, plus what is specific to this repo.
 
 ## Design system
 
@@ -17,7 +17,7 @@ Carried over from vinta-slidedeck where they still apply, plus what is specific 
 - Some vivid layouts approximate a template detail with the nearest element style: `VividCard` always has the large
   shadow, the navy review card is flat (template: gradient), the glass number chips are lighter than the template's
   navy-tinted ones, and `IconBadge` `ring` has a single blue.
-- `SlideCode` / `CodeWindow` were added in this repo (vinta-slidedeck has no code slide). They use only existing
+- `SlideCode` / `CodeWindow` were added in this repo (vinta-slidedeck-deprecated has no code slide). They use only existing
   tokens, but the syntax colors (several accents on one slide) are pending design review. The highlighter has no
   `bash`/shell grammar: those snippets render as plain text.
 

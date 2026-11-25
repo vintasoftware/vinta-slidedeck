@@ -1,6 +1,6 @@
 # Vinta Slides — team guide
 
-Adapted from the vinta-slidedeck sales team guide (owner: Felipe Farias).
+Adapted from the vinta-slidedeck-deprecated sales team guide (owner: Felipe Farias).
 
 ## How it works
 
@@ -12,7 +12,7 @@ presentation. You never edit code.
   what each template is for, with its limits. It also shows the sample presentations (complete decks with fictional
   data) and your own deck. Storybook (`npm run storybook`, port 6006) is the internal tool behind it.
 - **One repository per deck:** every new deck starts as a copy of the template repository
-  (`vintasoftware/vinta-react-deck-template`). Your slides live in `src/slides/` of that copy; the published
+  (`vintasoftware/vinta-slidedeck`). Your slides live in `src/slides/` of that copy; the published
   artifact is what you share.
 
 ## Set up your machine (once)
@@ -21,7 +21,7 @@ Install Node.js (version 20 or newer) and Claude Code.
 
 ## Start a new deck
 
-1. On GitHub, open `vintasoftware/vinta-react-deck-template` and click **Use this template → Create a new
+1. On GitHub, open `vintasoftware/vinta-slidedeck` and click **Use this template → Create a new
    repository** (name it after the deck, e.g. `northwind-proposal`). Clone it and, in its folder, run:
 
 ```bash
