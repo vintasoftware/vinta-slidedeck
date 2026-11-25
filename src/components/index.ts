@@ -1,4 +1,4 @@
-// The Vinta design system (ported from vinta-slidedeck-deprecated): site-look slide patterns + the elements
+// The Vinta design system: site-look slide patterns + the elements
 // they are built from. A single import surface (the deck runtime itself is @/lib):
 //   import { SlideCover, SlideAgenda, Highlight } from "@/components";
 // Catalog, limits and rules: src/components/CATALOG.md. Browse every pattern at /patterns.

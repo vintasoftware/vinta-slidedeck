@@ -1,7 +1,7 @@
 /* Swaps /assets/... paths for data URIs in the self-contained artifact (npm run build-deck).
    The patterns reference images in public/ by string (src, href, inline style), so build-deck cannot
    rewrite them in the bundle: it embeds the path → data URI map as `window.__DECK_ASSETS__` and this
-   observer swaps the attributes as soon as React writes them to the DOM. Ported from vinta-slidedeck-deprecated.
+   observer swaps the attributes as soon as React writes them to the DOM.
    Imported first by the artifact entry, so it is installed before the deck renders; a no-op elsewhere. */
 
 declare global {

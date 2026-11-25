@@ -1,4 +1,4 @@
-// Builds the template gallery (ported from vinta-slidedeck-deprecated): a single page for non-technical users with every slide
+// Builds the template gallery: a single page for non-technical users with every slide
 // template grouped by the curated categories of scripts/gallery-catalog.mjs (by use, in deck order), one screenshot
 // per variant and a link to the Storybook story, then the sample presentations and your own deck (src/slides/).
 // "Use when" comes from the catalog; limits from the "Pattern catalog" tables in src/components/CATALOG.md.

@@ -1,6 +1,6 @@
 # Vinta Slides — team guide
 
-Adapted from the vinta-slidedeck-deprecated sales team guide (owner: Felipe Farias).
+Adapted from the Vinta sales team guide (owner: Felipe Farias).
 
 ## How it works
 
