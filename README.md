@@ -62,6 +62,7 @@ timer, speaker notes, previous/next slides — synced with the deck window) · n
 - **`src/lib/`** — the deck runtime (`@/lib`): navigation, overview, presenter window, capture modes, markdown parser.
 - **[docs/](docs/)** — `team-guide.md` (no-code guide), `foundations.md` (tokens, palette), `layout.md` (slide
   anatomy), `known-issues.md`.
+- **[AGENTS.md](AGENTS.md)** — instructions for AI agents (`CLAUDE.md` is a symlink to it).
 - **Agent skills** — `create-deck` (build a deck) and `publish-deck` (share it as an artifact).
 
 ### AI agent instructions (single source, many tools)
