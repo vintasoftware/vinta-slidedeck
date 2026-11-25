@@ -14,7 +14,6 @@ patterns in the Vinta site look. **Read `src/components/CATALOG.md` before start
 change, the pattern catalog with props and limits, the elements, and the content/asset limits. Do not invent color,
 font, size or icon; if no pattern fits, say so instead of creating a style. Write code and docs in English; slide copy
 in whatever language the user asks for (ask if the brief doesn't say — Portuguese runs longer, so recheck limits).
-(Workflow ported from vinta-slidedeck-deprecated's new-deck skill.)
 
 **One repository per deck.** Each deck is its own copy of the template repository
 `vintasoftware/vinta-slidedeck` (GitHub's "Use this template"; a workflow renames the copy on its first

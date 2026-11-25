@@ -2,9 +2,7 @@
 
 # Vinta Slidedeck
 
-Vinta's presentation design system (the vintasoftware.com site look, from the original vinta-slidedeck, now
-vinta-slidedeck-deprecated) as a
-**React slide deck**: ~70 ready slide patterns, slides written as `.tsx` or plain **markdown**, a
+Vinta's presentation design system (the vintasoftware.com site look) as a **React slide deck**: ~70 ready slide patterns, slides written as `.tsx` or plain **markdown**, a
 **presenter window** with speaker notes, **PDF/PPTX export**, and one-command **Claude artifacts** to share a
 deck as a link. Building a deck is picking patterns and passing your content — easy to do with an AI agent.
 
@@ -64,6 +62,7 @@ timer, speaker notes, previous/next slides — synced with the deck window) · n
 - **`src/lib/`** — the deck runtime (`@/lib`): navigation, overview, presenter window, capture modes, markdown parser.
 - **[docs/](docs/)** — `team-guide.md` (no-code guide), `foundations.md` (tokens, palette), `layout.md` (slide
   anatomy), `known-issues.md`.
+- **[AGENTS.md](AGENTS.md)** — instructions for AI agents (`CLAUDE.md` is a symlink to it).
 - **Agent skills** — `create-deck` (build a deck) and `publish-deck` (share it as an artifact).
 
 ### AI agent instructions (single source, many tools)

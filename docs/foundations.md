@@ -1,16 +1,14 @@
 # Vinta Slidedeck — Harness v4
 
-> **Ported from vinta-slidedeck-deprecated** as reference for the `@/components` patterns. In this repo the tokens live in
-> `src/components/tokens.css`, the catalog and rules in `src/components/CATALOG.md`, and every pattern renders at
-> `/patterns`. Mentions of Storybook, `CLAUDE.md` and `npm run` scripts (other than `build-deck`) refer to
-> vinta-slidedeck-deprecated; this repo's team guide is `team-guide.md`, next to this file.
+> Reference for the `@/components` patterns. The tokens live in `src/components/tokens.css`, the catalog and rules
+> in `src/components/CATALOG.md`, and every pattern renders at `/patterns` and in Storybook.
 
 **What it is:** the foundation (rules + tokens) of the sales-deck design system.
 Source of truth — Claude follows this; Figma reflects this.
 
 **Where it came from:** extracted from the screens on the *Auditoria Business Proposal* page (VWDS.fig),
 read with Claude. Not inherited from the website; VWDS is only a sensory reference.
-**Companions:** `layout.md` (slide anatomy) · `../CLAUDE.md` (how to build) ·
+**Companions:** `layout.md` (slide anatomy) · `../AUTHORING.md` (how to build) ·
 `team-guide.md` (team usage). The full token reference is in §8 and is generated from code.
 
 **Core rule:** richness is intentional. Keep the range of the screens; cut only duplicates and
@@ -141,7 +139,7 @@ Migrate the strays: **Roboto → DM Sans** (same sizes) · **JetBrains Mono → 
 
 ## 6. Components (where the screens proved reuse)
 Build our own by copying (never link the website's). Each one with **variants + states**.
-Full inventory and props: `CLAUDE.md` §3–4 and the *Docs* tab of each story in Storybook.
+Full inventory and props: `src/components/CATALOG.md` and the *Docs* tab of each story in Storybook.
 
 - **Divider** — 4 schemes (light / invert-blue / invert-navy)
 - **Stat / KPI** — mono-xl number + label

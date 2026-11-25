@@ -1,6 +1,6 @@
 // Records an animated Storybook story as a looping MP4 video (frame by frame, with virtual time),
 // for use outside the deck (email, Google Slides, another tool) together with a cover image. In the deck,
-// its build-deck artifact and the dev server the animations already run live. Ported from vinta-slidedeck-deprecated.
+// its build-deck artifact and the dev server the animations already run live.
 // Prerequisites: `npm run storybook` running and `ffmpeg` installed (macOS: `brew install ffmpeg`).
 // Story ids: the part after `?path=/story/` in Storybook's URL (e.g. patterns-slidebuildingblocks--animated).
 //

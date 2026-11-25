@@ -1,5 +1,5 @@
-// Regenerates the "Token reference" in docs/foundations.md from src/components/tokens.css. Ported from vinta-slidedeck-deprecated;
-// the tokens here are scoped to `.vds` instead of :root (see src/index.css).
+// Regenerates the "Token reference" in docs/foundations.md from src/components/tokens.css.
+// The tokens are scoped to `.vds` instead of :root (see src/index.css).
 // Usage: npm run sync-harness   (only touches the block between the markers)
 import { readFileSync, writeFileSync } from 'node:fs'
 

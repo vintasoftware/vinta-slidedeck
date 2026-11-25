@@ -29,7 +29,7 @@ export interface SlideCodeProps {
 }
 
 /** A code snippet on a slide, in the site look: two-tone header and a navy code window with syntax colors.
- *  New pattern added with the migration from vinta-slidedeck-deprecated (it has no code slide); syntax colors pending design review. */
+ *  Syntax colors pending design review. */
 export function SlideCode({
   tone = 'invert-navy',
   eyebrow,

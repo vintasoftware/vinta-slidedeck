@@ -6,8 +6,8 @@ import { storybookTest } from '@storybook/addon-vitest/vitest-plugin'
 import { playwright } from '@vitest/browser-playwright'
 
 // Runs every Storybook story as a test in headless Chromium (renders without errors; a11y checks reported per
-// `parameters.a11y.test` in .storybook/preview.tsx). Ported from vinta-slidedeck-deprecated, where this lived in vite.config.ts;
-// kept separate here so the deck's dev server and build don't load test tooling.
+// `parameters.a11y.test` in .storybook/preview.tsx). Kept apart from vite.config.ts so
+// the deck's dev server and build don't load test tooling.
 // More info: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 

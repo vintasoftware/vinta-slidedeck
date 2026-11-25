@@ -13,7 +13,7 @@ import './preview.css'
 
 // The design-system tokens are scoped to `.vds` (so they never meet the deck chrome's Tailwind theme in the app).
 // Storybook has no Tailwind: put the scope on <html> so stories, element stories and the MDX foundations pages all
-// see the tokens, exactly as in vinta-slidedeck-deprecated where they lived on :root.
+// see the tokens.
 document.documentElement.classList.add('vds')
 
 const preview: Preview = {

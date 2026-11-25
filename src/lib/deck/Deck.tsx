@@ -220,7 +220,7 @@ export function Deck({ slides }: DeckProps) {
 
   // ---- Single slide ----
   const cur = slides[idx];
-  // Click to navigate (as in vinta-slidedeck-deprecated's artifact viewer): the left third of the window goes back, anywhere
+  // Click to navigate: the left third of the window goes back, anywhere
   // else advances. Links, buttons and form fields — inside a slide or in the HUD — keep their own click.
   const onClick = (e: MouseEvent<HTMLDivElement>) => {
     if (e.target instanceof Element && e.target.closest("a, button, input, select, textarea, [data-deck-hud]")) return;

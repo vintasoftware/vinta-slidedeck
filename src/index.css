@@ -50,7 +50,7 @@ body.deck-print {
 }
 
 /* =========================================================================
-   Design-system scope (@/components — the patterns ported from vinta-slidedeck-deprecated)
+   Design-system scope (@/components — the slide patterns)
    -------------------------------------------------------------------------
    Every pattern renders inside a `.vds` root (SlideShell, or the full-screen
    Divider). Those components were authored with CSS Modules against plain
@@ -71,7 +71,7 @@ body.deck-print {
     all: revert-layer;
     box-sizing: border-box;
   }
-  /* What vinta-slidedeck-deprecated set on <body>. */
+  /* Base text styles of the design-system scope. */
   .vds {
     font-family: var(--font-sans);
     font-size: var(--font-size-body);

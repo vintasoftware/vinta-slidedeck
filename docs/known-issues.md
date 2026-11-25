@@ -1,7 +1,5 @@
 # Known issues
 
-Carried over from vinta-slidedeck-deprecated where they still apply, plus what is specific to this repo.
-
 ## Design system
 
 - Team photos in `public/assets/team/` are real Vinta employees; the names next to the portraits in stories are
@@ -17,7 +15,7 @@ Carried over from vinta-slidedeck-deprecated where they still apply, plus what i
 - Some vivid layouts approximate a template detail with the nearest element style: `VividCard` always has the large
   shadow, the navy review card is flat (template: gradient), the glass number chips are lighter than the template's
   navy-tinted ones, and `IconBadge` `ring` has a single blue.
-- `SlideCode` / `CodeWindow` were added in this repo (vinta-slidedeck-deprecated has no code slide). They use only existing
+- `SlideCode` / `CodeWindow` use only existing
   tokens, but the syntax colors (several accents on one slide) are pending design review. The highlighter has no
   `bash`/shell grammar: those snippets render as plain text.
 
